@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    font-family: roboto;
+}
+body{
+    background-color: black;
+}
+
+/*ENLACES***********************************************/
+.barra-navegacion{
+    background-color: black;
+    height: 80px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 6px 0px 10px;
+}
+
+/*MENU****************************************************/
+.enlace-superior a{
+    color: rgb(255, 213, 0);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.enlace-inferior a:nth-child(5){
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+    font-weight: 300;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+.enlace-inferior a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+.enlace-inferior a i{
+    font-size: 13px;
+}
+
+/*BOTONES*************************************************/
+.botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.botones button:nth-child(2){
+
+    background-color: rgb(59, 65, 65);
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size:20px;
+
+    }
+.botones button:nth-child(2) i{
+    color: rgb(129, 129, 129);
+} 
+.botones button{
+    background-color: rgb(62, 62, 62);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 4px;
+    border-radius: 3px;
+}
+.botones button i{
+    color: rgb(48, 223, 89);
+}
+/*CUERPO****************************************/
+.cuerpo{
+    display: flex;
+    padding: 40px 0px 30px 30px;
+    background: linear-gradient(120deg, rgb(70, 70, 77), rgb(0, 0, 0));
+}
+.cuerpo .texto{
+    margin: 0px 20px 0px;
+}
+.cuerpo .texto p:nth-child(1){
+    color: rgb(194, 194, 194);
+    font-weight: 300;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+.cuerpo .texto p:nth-child(1) span{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.cuerpo .texto p:nth-child(2){
+    margin-top: 20px;
+    color: rgb(194, 194, 194);
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+.cuerpo .texto button:nth-last-child(2){
+    border: none;
+    background-color: rgb(29, 208, 110);
+    padding: 12px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+}
+.cuerpo .texto button:nth-last-child(1){
+    border: none;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    padding: 11px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+}
+
+.cuerpo .imagen p{
+    color: white;
+    margin-bottom: 10px;
+}
+.cuerpo .imagen p span{
+    color: rgb(83, 185, 229);
+}
+/*PIE DE PAGINA*************************************/
+.pie-pagina{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pie-pagina p{
+    background-color: rgb(64, 66, 73);
+    border: 1px solid rgb(132, 134, 143);
+    padding: 20px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+.pie-pagina p span{
+    font-weight: 600;
+    font-size:1.2rem;
+}
